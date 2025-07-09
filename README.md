@@ -14,4 +14,4 @@
 <br>
 <p>     Esse projeto foi desenvolvido para para ser responsivo entre telas de desktop e tablets</p>
 <img src="https://github.com/arthurfreitas15/Easy-Shopping/blob/master/img/Desktop.png" alt="Desktop" width="500px">
-<img src="https://github.com/arthurfreitas15/Easy-Shopping/blob/master/img/Mobile.png" alt="Desktop" width="500px">
+<img src="https://github.com/arthurfreitas15/Easy-Shopping/blob/master/img/Mobile.png" alt="Desktop" height="200px">
