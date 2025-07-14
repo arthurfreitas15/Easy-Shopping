@@ -29,23 +29,6 @@
     <li><strong>CSS3:</strong> Estilização e responsividade, incluindo o uso de Flexbox e <code>clamp()</code> para controle de tamanhos.</li>
 </ul>
 
-<hr>
-
-<h2>💻 Como Rodar Localmente (Opcional)</h2>
-
-<p>Se você quiser explorar o código ou fazer modificações:</p>
-
-<ol>
-    <li><strong>Clone o repositório:</strong>
-        <pre><code>git clone https://github.com/arthurfreitas15/Easy-Shopping.git</code></pre>
-    </li>
-    <li><strong>Navegue até o diretório do projeto:</strong>
-        <pre><code>cd Easy-Shopping</code></pre>
-    </li>
-    <li><strong>Abra o arquivo <code>index.html</code> em seu navegador</strong> (você pode simplesmente clicar duas vezes no arquivo ou arrastá-lo para a janela do navegador).</li>
-</ol>
-
-<hr>
 
 <h2>Contribuição</h2>
 
