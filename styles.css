@@ -1,68 +1,77 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
-
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .left {
-    display: inline-block;
-    height: 100vh;
-    width: 60%;
+    flex: 1;
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5%;
+    text-align: left;
 }
 
 .right {
-    display: inline-block;
+    flex: 1;
+    min-width: 40%;
     background-color: rgba(93, 93, 125, 0.16);
-    height: 100vh;
-    width: 40%;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 h1 {
-    margin: 381px 0 15px 9.4%;
-    width: 368px;
+    width: 100%;
+    max-width: 500px;
     color: #5D5D7D;
-    font-size: 70px;
-    font-style: normal;
+    font-size: clamp(36px, 5vw, 70px);
     font-weight: 400;
-    line-height: 114.286%;
-
-
+    line-height: 1.2;
+    margin-bottom: 15px;
+    text-align: inherit;
 }
 
 p {
-    width: 540px;
-    text-align: justify;
-    margin: 0 0 15px 9.4%;
+    width: 100%;
+    max-width: 600px;
     color: #5D5D7D;
-    font-size: 28px;
-    font-style: normal;
+    font-size: clamp(18px, 2.5vw, 28px);
     font-weight: 400;
-    line-height: 171.429%;
-
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: justify;
+    hyphens: auto;
 }
 
 button {
-    align-self: center;
-    width: 269px;
+    width: clamp(200px, 30vw, 269px);
     height: 62px;
-    font-size: 24px;
+    font-size: clamp(18px, 2vw, 24px);
     background: #9499EA;
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    margin: 0 0 0 9.4%;
     transition: 0.25s;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -70,16 +79,19 @@ button:hover {
 }
 
 nav {
-    margin: 24px 58px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
     text-align: right;
+    z-index: 100;
 }
 
 a {
-    margin: 0 0 0 41px;
+    margin-left: 20px;
     font-weight: 400;
     color: #5D5D7D;
     text-decoration: none;
-    font-size: 28px;
+    font-size: clamp(16px, 2vw, 22px);
 }
 
 a:hover {
@@ -91,87 +103,62 @@ a:hover {
 }
 
 img {
-    position: relative;
-    top: 25%;
-    right: 130px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1240px) {
-     
+    .wrapper {
+        flex-direction: column;
+    }
+
     .left {
-        display: block;
+        min-width: 100%;
+        height: auto;
+        padding: 40px 5%;
         text-align: center;
-        align-content: center;
-        height: 50%;
-        width: 100%;
+        align-items: center;
     }
 
     .right {
-        position: fixed;
-        text-align: center;
-        display: block;
-        background-color: rgba(93, 93, 125, 0.16);
+        min-width: 100%;
         height: auto;
-        width: 100%;
-
+        padding: 40px 5%;
+        position: static;
     }
 
     h1 {
-        justify-self: center;
-        text-align: center;
-        margin: 58px 0 15px 0;
-        width: auto;
-        height: 104px;
-        color: #5D5D7D;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 144.44%;
-
-
+        margin-top: 20px;
     }
 
     p {
-        justify-self: center;
-        width: auto;
-        margin: 0 40px 15px 40px;
-        text-align: center;
-        color: #5D5D7D;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 171.429%;
-
+        margin-left: auto;
+        margin-right: auto;
     }
 
     button {
-        margin: 0;
-        width: 269px;
-        height: 62px;
-        font-size: 24px;
-        background: #9499EA;
-        color: #ffffff;
-        border: none;
-        border-radius: 50px;
-        transition: 0.25s;
-        cursor: pointer;
-    }
-
-    img {
-        position: static;
-        top: 10%;
-        right: 0;
-        width: 271px;
-        height: 322.95px;
-        margin-top: 46px;
-
-
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav {
-        margin: 0;
-        text-align: center;
         display: none;
     }
-    
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: clamp(30px, 8vw, 40px);
+    }
+
+    p {
+        font-size: clamp(16px, 4vw, 20px);
+    }
+
+    a {
+        font-size: clamp(14px, 3vw, 18px);
+        margin-left: 10px;
+    }
 }
