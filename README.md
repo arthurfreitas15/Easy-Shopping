@@ -1,47 +1,62 @@
-<h1 style="color:#0057e7;">🌐 Wide Coverage</h1>
+<h1>Easy Shopping</h1>
 
-<p>
-  <a href="https://arthurfreitas15.github.io/Wide-Coverage/" target="_blank">
-    <img src="https://img.shields.io/badge/Live-Demo-blue?logo=github" alt="Live Demo">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
-  </a>
-</p>
+<hr>
 
-<p>
-  <strong>Wide Coverage</strong> é um site responsivo e moderno, ideal para portfólios, landing pages ou páginas de produtos. 
-  Ele oferece um layout limpo, visual amplo e compatibilidade com diferentes dispositivos.
-</p>
+<p>Este é um projeto de uma landing page moderna e responsiva para um site de compras, desenvolvida para demonstrar habilidades em HTML e CSS durante o aprendizado no DevClub. O "Easy Shopping" oferece uma experiência de navegação fluida em diversos tamanhos de tela, desde desktops até dispositivos móveis.</p>
 
-<h2 style="color:#333;">🚀 Acesse</h2>
-<p>
-  <a href="https://arthurfreitas15.github.io/Wide-Coverage/" target="_blank" style="color:#007acc; text-decoration:none;">
-    👉 Clique aqui para acessar o projeto online
-  </a>
-</p>
+<h2>🚀 Acesse o Projeto</h2>
 
-<h2 style="color:#333;">🛠️ Tecnologias Utilizadas</h2>
+<p>Você pode visualizar a página publicada e interagir com ela diretamente pelo GitHub Pages:</p>
+
+<p><strong><a href="https://arthurfreitas15.github.io/Easy-Shopping/">Acesse a página Easy Shopping aqui!</a></strong></p>
+
+<hr>
+
+<h2>✨ Funcionalidades e Destaques</h2>
+
 <ul>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>GitHub Pages para hospedagem</li>
+    <li><strong>Design Responsivo:</strong> Layout adaptável para smartphones, tablets e desktops.</li>
+    <li><strong>Interface Intuitiva:</strong> Seções bem definidas para uma navegação agradável.</li>
+    <li><strong>Tecnologias Modernas:</strong> Construído com as melhores práticas de desenvolvimento web.</li>
 </ul>
 
-<h2 style="color:#333;">📌 Funcionalidades</h2>
+<hr>
+
+<h2>🛠️ Tecnologias Utilizadas</h2>
+
 <ul>
-  <li>Layout responsivo para dispositivos móveis</li>
-  <li>Design moderno e focado em conteúdo visual</li>
-  <li>Estrutura simples e fácil de personalizar</li>
+    <li><strong>HTML5:</strong> Estrutura semântica da página.</li>
+    <li><strong>CSS3:</strong> Estilização e responsividade, incluindo o uso de Flexbox e <code>clamp()</code> para controle de tamanhos.</li>
 </ul>
 
-<h2 style="color:#333;">📄 Licença</h2>
-<p>
-  Este projeto está sob a licença 
-  <a href="LICENSE" style="color:#007acc;">MIT</a>.
-</p>
+<hr>
 
-<p>
-  Desenvolvido por 
-  <a href="https://github.com/arthurfreitas15" target="_blank" style="color:#007acc;">Arthur Freitas</a> 🚀
-</p>
+<h2>💻 Como Rodar Localmente (Opcional)</h2>
+
+<p>Se você quiser explorar o código ou fazer modificações:</p>
+
+<ol>
+    <li><strong>Clone o repositório:</strong>
+        <pre><code>git clone https://github.com/arthurfreitas15/Easy-Shopping.git</code></pre>
+    </li>
+    <li><strong>Navegue até o diretório do projeto:</strong>
+        <pre><code>cd Easy-Shopping</code></pre>
+    </li>
+    <li><strong>Abra o arquivo <code>index.html</code> em seu navegador</strong> (você pode simplesmente clicar duas vezes no arquivo ou arrastá-lo para a janela do navegador).</li>
+</ol>
+
+<hr>
+
+<h2>Contribuição</h2>
+
+<p>Contribuições são sempre bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum problema, sinta-se à vontade para abrir uma <em>issue</em> ou enviar um <em>pull request</em>.</p>
+
+<hr>
+
+<h2>Autor</h2>
+
+<p><strong>Arthur Freitas</strong></p>
+
+<ul>
+    <li><a href="https://github.com/arthurfreitas15">GitHub</a></li>
+</ul>
