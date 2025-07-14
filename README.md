@@ -2,7 +2,7 @@
 
 <hr>
 
-<p>Este é um projeto de uma landing page moderna e responsiva para um site de compras, desenvolvida para demonstrar habilidades em HTML e CSS. O "Easy Shopping" oferece uma experiência de navegação fluida em diversos tamanhos de tela, desde desktops até dispositivos móveis.</p>
+<p>Este é um projeto de uma landing page moderna e responsiva para um site de compras, desenvolvida para demonstrar habilidades em HTML e CSS durante o aprendizado no DevClub. O "Easy Shopping" oferece uma experiência de navegação fluida em diversos tamanhos de tela, desde desktops até dispositivos móveis.</p>
 
 <h2>🚀 Acesse o Projeto</h2>
 
